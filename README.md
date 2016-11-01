@@ -1,12 +1,13 @@
 # mta-unit-tests
-Simply lib for testing mta scripts
+Simply lib for **testing mta scripts**
 Docs about lunity lib: 
-https://github.com/Phrogz/Lunity
+[Lunity lib, github repos](https://github.com/Phrogz/Lunity)
+
+```lua
 -- Example test
 -- @usage
 -- First, we need unit test in global table
 -- Then, we can describe tests
-
 g_Tests[#g_Tests+1] = {
   -- Description of testSuite
   ["_NAME"] = "testSuite:example simplify assert test, should return true",
@@ -19,3 +20,4 @@ g_Tests[#g_Tests+1] = {
     assertEqual(true, false, "that second assert, should equals!")
   end
 }
+```
