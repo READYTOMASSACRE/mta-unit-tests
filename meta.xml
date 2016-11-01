@@ -1,0 +1,8 @@
+<meta>
+     <!-- Before include unit tests -->
+     <script src="server/tests/example.lua" type="server" />
+     <script src="server/tests/example2.lua" type="server" />
+
+     <!-- After include lib -->
+     <script src="server/lib/customlunity.lua" type="server" />
+</meta>
